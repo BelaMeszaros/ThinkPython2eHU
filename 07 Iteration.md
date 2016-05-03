@@ -18,6 +18,8 @@ As you may have discovered, it is legal to make more than one assignment to the 
 The first time we display x, its value is 5; the second time, its value is 7.
 Figure 7.1 shows what **reassignment** looks like in a state diagram.
 
+![State diagram.](http://greenteapress.com/thinkpython2/html/thinkpython2008.png "Figure 7.1: State diagram.")
+
 At this point I want to address a common source of confusion. Because Python uses the equal sign (=) for assignment, it is tempting to interpret a statement like <code>a = b</code> as a mathematical proposition of equality; that is, the claim that <code>a</code> and <code>b</code> are equal. But this interpretation is wrong.
 
 First, equality is a symmetric relationship and assignment is not. For example, in mathematics, if *a*=7 then 7=*a*. But in Python, the statement <code>a = 7</code> is legal and <code>7 = a</code> is not.
